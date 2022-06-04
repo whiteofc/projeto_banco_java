@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="214.0" prefWidth="502.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bankumj.projeto.controller.RecuperaSenha">
+    <children>
+        <Label layoutX="140.0" layoutY="22.0" text="RECUPERAÇÃO DE SENHA">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="126.0" layoutY="57.0" text="Insira seu e-mail para receber sua senha">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Button fx:id="rec" layoutX="174.0" layoutY="119.0" mnemonicParsing="false" onAction="#recuperar" prefHeight="38.0" prefWidth="150.0" text="Recuperar" />
+        <TextField fx:id="recuperaSenha" alignment="CENTER" layoutX="150.0" layoutY="80.0" prefHeight="26.0" prefWidth="198.0" promptText="meuemail@email.com" />
+    </children>
+</AnchorPane>
